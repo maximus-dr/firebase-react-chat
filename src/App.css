@@ -91,6 +91,12 @@ form {
 form button {
   width: 20%;
   background-color: rgb(56, 56, 143);
+  transition: background-color 0.2s, color 0.2s;
+}
+
+form button:hover {
+  background-color: #ffffff;
+  color: rgb(58, 58, 58);
 }
 
 
@@ -106,7 +112,7 @@ input {
 }
 
 button {
-  background-color: #282c34; /* Green */
+  background-color: #282c34;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -115,6 +121,13 @@ button {
   display: inline-block;
   cursor: pointer;
   font-size: 1.25rem;
+  background-color: #282c34;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: rgb(58, 58, 58);
 }
 
 button:disabled {
@@ -142,7 +155,6 @@ p {
   display: flex;
   align-items: center;
 }
-
 
 .sent {
   flex-direction: row-reverse;
