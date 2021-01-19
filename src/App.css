@@ -25,12 +25,35 @@ body {
   box-sizing: border-box;
 }
 
+.App-header-icons {
+  display: flex;
+}
+
 .App section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100vh;
   background-color: rgb(40, 37, 53);
+}
+
+.App-header-icons div {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+  background-size: cover;
+}
+
+.cat-icon {
+  background: url('./img/icons/cat.svg') no-repeat 2px 0;
+}
+
+.fire-icon {
+  background: url('./img/icons/fire.svg') no-repeat -1px 0;
+}
+
+.chat-icon {
+  background: url('./img/icons/chat.svg') no-repeat;
 }
 
 main {

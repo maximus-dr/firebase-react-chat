@@ -28,7 +28,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>⚛️🔥💬</h1>
+        <div className="App-header-icons">
+          <div className="cat-icon"></div>
+          <div className="fire-icon"></div>
+          <div className="chat-icon"></div>
+        </div>
         <SignOut auth={auth} />
       </header>
 
