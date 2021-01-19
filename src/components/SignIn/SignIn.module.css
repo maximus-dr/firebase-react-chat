@@ -3,4 +3,14 @@
   background: white;
   max-width: 400px;
   margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.introTitle {
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+.introText {
+  margin: 0 auto;
 }
