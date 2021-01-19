@@ -45,7 +45,7 @@ body {
 }
 
 .cat-icon {
-  background: url('./img/icons/cat.svg') no-repeat 2px 0;
+  background: url('./img/icons/cat.svg') no-repeat 1px 0;
 }
 
 .fire-icon {
@@ -114,6 +114,7 @@ input {
 button {
   background-color: #282c34;
   border: none;
+  outline: none;
   color: white;
   padding: 15px 32px;
   text-align: center;

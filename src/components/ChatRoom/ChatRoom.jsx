@@ -14,7 +14,9 @@ export default function ChatRoom(props) {
   const [formValue, setFormValue] = useState('');
 
   const sendMessage = async(e) => {
-    e.preventDefault();
+    e.preventDefault();    
+    if (!formValue) return;
+    
     const { uid, photoURL } = props.auth.currentUser;
 
     await messagesRef.add({
